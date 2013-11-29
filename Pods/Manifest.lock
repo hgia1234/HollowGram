@@ -1,0 +1,18 @@
+PODS:
+  - GPUImage (0.1.1)
+  - MBProgressHUD (0.8)
+  - SDWebImage (3.5):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.5)
+
+DEPENDENCIES:
+  - GPUImage
+  - MBProgressHUD
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  GPUImage: b9840114a0ad0323801c2e0aa2752679057f808d
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  SDWebImage: f1a72472f8a2d54445f1fedafe2090593d9caf7f
+
+COCOAPODS: 0.27.1

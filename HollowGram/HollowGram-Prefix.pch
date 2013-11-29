@@ -1,0 +1,27 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <AVFoundation/AVFoundation.h>
+
+#import <GPUImage/GPUImage.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+
+#import "UIImage+Resize.h"
+#import "UIImage+Orientation.h"
+
+#import "GDUtils.h"
+
+#endif
